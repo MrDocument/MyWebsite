@@ -1,0 +1,36 @@
+.header {
+    background: #1abc9c; /* some padding */
+    text-align: center; /* center the text */
+    padding: 80px; /* green background */
+    color: aliceblue; /* white text color */
+}
+
+/* Increase the font size of the <h1> element */
+.header h1 {
+    font-size: 40px;
+}
+
+/* Style the top navigation bar */
+.navbar {
+    overflow: hidden; /* Hide overflow */
+    background: rgb(70, 70, 70);  /* Dark background color */
+}
+
+/* Style the navigation bar links */
+.navbar a {
+    float: left; /* Make sure that the links stay side-by-side */
+    display: block; /* Change the display to block, for responsive reasons (see below) */
+    color: aliceblue;
+    text-align: center; /* Center the text */
+    padding: 14px 20px;
+    text-decoration: none; /* Remove underline */
+}
+
+.navbar a.right {
+    float: right; /* Float a link to the right */
+}
+
+.navbar a:hover {
+    background-color: rgb(184, 184, 184);
+    color: black;
+}
